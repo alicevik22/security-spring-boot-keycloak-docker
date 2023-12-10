@@ -6,7 +6,7 @@
 <br><br>
 This repository serves as a demonstration on how to create a robust and scalable security application with modern technologies.<br>
 Within this repository, the following technologies are applied:
-- Spring Boot [![](https://img.shields.io/badge/version-3.2-blue)]()
+- Spring Boot [![](https://img.shields.io/badge/version-3.2.0-blue)]()
 - Keycloak [![](https://img.shields.io/badge/version-23.0.1-blue)]()
 - Docker
 <br><br>
@@ -78,7 +78,7 @@ This file can be found in ```src/main/resources/data/postman/import/collection-i
 
 [![](https://img.shields.io/badge/HTTP-POST-yellow)]()
 
-**Description:** Post user credentials via the Keycloak request token endpoint</b><br>
+**Description:** Post user credentials via the <b>Keycloak request token endpoint</b><br>
 **Endpoint URL:** ```http://localhost:8080/realms/security-realm/protocol/openid-connect/token```
 
 ![05-postman-test-keycloak-request-token-endpoint](https://github.com/spring-boot-react-nextjs/security-spring-boot-keycloak-docker/blob/main/images/05-postman-test-keycloak-request-token-endpoint.jpg)
@@ -101,7 +101,7 @@ Copy the provided token, from the <b>Keycloak Request Token Endpoint</b> into yo
 
 [![](https://img.shields.io/badge/HTTP-GET-green)]()
 
-**Description:** Get the message from the <b>secured controller admin endpoint<br>
+**Description:** Get the message from the <b>secured controller admin endpoint</b><br>
 **Endpoint URL:** ```http://localhost:8081/api/v1/admin``` <br>
 **Access restricted:** Users with role ```client_admin``` only
 
@@ -110,7 +110,7 @@ Copy the provided token, from the <b>Keycloak Request Token Endpoint</b> into yo
 
 [![](https://img.shields.io/badge/HTTP-GET-green)]()
 
-**Description:** Get the message from the <b>secured controller moderator endpoint<br>
+**Description:** Get the message from the <b>secured controller moderator endpoint</b><br>
 **Endpoint URL:** ```http://localhost:8081/api/v1/moderator``` <br>
 **Access restricted:** Users with role ```client_moderator``` only
 
@@ -119,7 +119,7 @@ Copy the provided token, from the <b>Keycloak Request Token Endpoint</b> into yo
 
 [![](https://img.shields.io/badge/HTTP-GET-green)]()
 
-**Description:** Get the message from the <b>secured controller user endpoint<br>
+**Description:** Get the message from the <b>secured controller user endpoint</b><br>
 **Endpoint URL:** ```http://localhost:8081/api/v1/user``` <br>
 **Access restricted:** Users with role ```client_user``` only
 
